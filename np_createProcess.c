@@ -1,8 +1,8 @@
-/* Creates a namedpipe \\.\pipe\xai, then impersonates the client connecting to it.
+/* Creates a namedpipe \\.\pipe\xau, then impersonates the client connecting to it.
    User should have SeImpersonatePrivilege
    Hardcoded to execute cmd
    compile with mingw - x86_64-w64-mingw32-gcc -D UNICODE np_createProcess.c -o np_createProc.exe
-   To test execute the binary and `echo abc > \\.\pipe\xai` from the client side
+   To test execute the binary and `echo abc > \\.\pipe\xau` from the client side
 */
 
 #include <windows.h>
